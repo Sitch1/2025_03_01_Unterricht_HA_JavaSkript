@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>JavaScript Arrays</h1>
+    <h2>findLastIndex()</h2>
+
+    <p>findLastIndex() returns the index of the last element that passes a test (provided by a function).</p>
+
+    <p id="demo"></p>
+
+    <script>
+        const ages = [4, 10, 18, 20, 24];
+
+        document.getElementById("demo").innerHTML = ages.findLastIndex(checkAge);
+
+        function checkAge(age) {
+            return age > 20;
+        }
+    </script>
+
+    <p>findLastIndex() is not supported in Internet Explorer.</p>
+
+</body>
+
+</html>

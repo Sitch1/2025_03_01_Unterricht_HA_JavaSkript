@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mamazon | Home</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="login.css" />
+    <script src="./login.js"></script>
   </head>
 
   <body>
@@ -25,8 +26,28 @@
       </div>
     </div>
     <div class="contentContainer">
-      <div class="homeText">Hallo von Home</div>
+      <h1>Login</h1>
+      <input
+        id="emailTextinput"
+        type="email"
+        name="email"
+        inputmode="email"
+        autocomplete="email"
+        class="standardinput"
+        placeholder="Enter your username..."
+      />
+      <input
+        id="passwordTextinput"
+        class="standardinput"
+        secure
+        type="password"
+        placeholder="Enter your password..."
+      />
+
+      <button onclick="onClickLogin()" class="standardbtn">Login</button>
+      <a href="./signup.html"><button class="standardbtn">Signup</button></a>
     </div>
+
     <div class="footerContainer"></div>
   </body>
 </html>
