@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selektoren</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <h1>CSS Selektoren</h1>
+    1. Descendent Combinator (div p)
+    <div>
+        <p>Erster Text</p>
+        <p>zweiter Text</p>
+        <p>dritter Text</p>
+    </div>
+    2. Kinderkombinator (ul > li)
+    <ul>
+        <li>Erstes Element</li>
+        <li>Zweites Element</li>
+        <li>Drittes Element</li>
+    </ul>
+
+    3. Hover Pseudoclass (a:hover)
+    <a href="#">Fahre mit deiner Maus über mich!</a><br><br>
+
+
+    4. nth-Kind Pseudoclass
+    <div class="children">
+        <ul>
+            <li>Element 1</li>
+            <li>Element 2</li>
+            <li>Element 3</li>
+            <li>Element 4</li>
+        </ul>
+    </div>
+
+    5. Marker Pseudoelement
+    <p>Hier ist ein <mark>markierter Text</mark>.</p>
+
+    6. Auswahl Pseudoelement
+    <p>Wähle diesen Text aus, um die Auswahl zu sehen.</p>
+
+    7. Namenselektor (input[typ-text"])
+    <form>
+        <input type="text" placeholder="Gib hier deinen Text ein">
+        <input type="number" placeholder="Zahl eingeben">
+    </form>
+
+
+
+</body>
+
+</html>

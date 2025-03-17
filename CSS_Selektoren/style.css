@@ -1,0 +1,36 @@
+div p {
+    color: green;
+}
+
+ul>li {
+    list-style-type: square;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: green;
+}
+
+li:nth-child(2n) {
+    background-color: lightgray;
+}
+
+.children {
+    margin-left: 30px;
+    padding: 20px;
+}
+
+p::selection {
+    background: rgb(246, 63, 63);
+    /* Der Hintergrund der ausgewählten Textstelle wird blau */
+    color: white;
+    /* Die Schriftfarbe der ausgewählten Textstelle wird weiß */
+}
+
+input[type="text"] {
+    border: 1px solid rgb(234, 4, 4);
+}
+
+input[type="number"] {
+    border: 3px solid greenyellow;
+}
